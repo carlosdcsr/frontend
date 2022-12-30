@@ -1,0 +1,23 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened 
+        fixedInViewport="true" fixedTopGap="0">
+        <mat-nav-list class="nav-list">
+            <button mat-list-item routerLink="/">
+                Home
+            </button>
+            <button mat-list-item  routerLink="/consoles">
+                Consoles
+            </button>
+            <button mat-list-item  routerLink="/games">
+                Jogos
+            </button>
+            <button mat-list-item  routerLink="/users">
+		Usuários
+            </button>
+        </mat-nav-list>
+       
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

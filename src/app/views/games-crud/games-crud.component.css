@@ -1,0 +1,26 @@
+button {
+    margin-bottom: 10px;
+    background-color: #5f9ea0;
+}
+
+.contain {
+    max-height: 84vh;
+}
+
+
+mat-divider {
+    border-top-width: 40px;
+}
+
+@media (max-height: 850px){
+    .contain {
+        max-height: 82vh;
+    }
+}
+
+@media (max-height: 720px){
+    .contain {
+        max-height: 78vh;
+    }
+    
+}
